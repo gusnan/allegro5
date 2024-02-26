@@ -65,7 +65,7 @@ static int compare(const void *pa, const void *pb) {
    // if different count values, sort according to this.
    if (val != 0) return val;
 
-   // But if the count value is the same, sort accourding to filename
+   // But if the count value is the same, sort according to filename
    return strcmp( (char*)((const lookup_t *) pa)->filename, (char*)((const lookup_t *) pb)->filename);
 }
 
